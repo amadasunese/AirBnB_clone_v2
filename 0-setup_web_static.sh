@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
 
 # Install Nginx if not already installed
 if ! command -v nginx &> /dev/null; then
@@ -101,4 +100,3 @@ config="server {
 
 echo -e "$config" > /etc/nginx/sites-enabled/default
 sudo service nginx restart
->>>>>>> f74f8ee24bc70fe0fbaaa47f3b67913b5c296c25
