@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Bash script that sets up your web servers for the deployment of web_static.
 # Check if Nginx is installed
 if ! command -v nginx &>/dev/null; then
 
@@ -67,3 +67,5 @@ ln -s /etc/nginx/sites-available/hbnb_static /etc/nginx/sites-enabled/hbnb_stati
 
 #Restart Nginx
 service nginx restart
+
+exit 0
