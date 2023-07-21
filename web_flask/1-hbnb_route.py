@@ -1,6 +1,9 @@
-from flask import Flask
+#!/usr/bin/python3
 '''Web Flask script
 '''
+from flask import flask
+
+
 app = Flask(__name__)
 
 
@@ -15,4 +18,5 @@ def hbnb():
 
 
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=5000)
